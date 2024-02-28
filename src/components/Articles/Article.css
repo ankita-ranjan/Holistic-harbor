@@ -1,0 +1,23 @@
+/* 
+.article-card {
+    width: calc(20% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+} */
+.read-more {
+  color: #007bff; 
+  text-decoration: underline;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}

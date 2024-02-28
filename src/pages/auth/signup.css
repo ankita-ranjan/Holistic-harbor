@@ -1,0 +1,28 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.google-btn {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.google-icon-wrapper {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.google-icon {
+    width: 100%;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,12 @@
+.carousel-inner img {
+    max-height: 80vh;
+    width: auto;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        max-height: 50vh;
+    }
+}

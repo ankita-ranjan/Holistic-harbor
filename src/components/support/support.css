@@ -1,0 +1,53 @@
+@media (min-width: 768px) {
+    .support-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-label {
+        font-size: 18px;
+    }
+
+    .form-control {
+        font-size: 16px;
+        height: 48px;
+    }
+
+    .textarea-control {
+        height: 120px;
+    }
+
+    .btn-primary {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .support-container {
+        padding: 15px;
+    }
+
+    .form-label {
+        font-size: 16px;
+    }
+
+    .form-control {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .textarea-control {
+        height: 100px;
+    }
+
+    .btn-primary {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
