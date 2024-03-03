@@ -3,6 +3,8 @@ import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import SignuPage from './pages/SignuPage';
 import Formpage from './pages/Formpage';
+import  ArticlePage  from './pages/ArticlePage';
+
 
 
 const router = createBrowserRouter([
@@ -22,6 +24,12 @@ const router = createBrowserRouter([
     path: '/form' ,
     element: <Formpage/>
   },
+  {
+    path:'/article',
+    element:<ArticlePage />
+  },
+  
+
 ])
 
 function App() {

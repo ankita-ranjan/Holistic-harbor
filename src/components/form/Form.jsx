@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid';
+import './form.css'
 
 
 export default function Form() {
@@ -7,7 +8,9 @@ export default function Form() {
   const [startDate, setStartDate] = useState('');
     
   return (
-    <div>
+    <div class=".">
+   
+   
         <div className="min-h-screen flex items-center justify-center pt-20 bg-gradient-to-b from-orange-300 via-white to-green-300">
 
 <form >
@@ -15,9 +18,11 @@ export default function Form() {
   <div className="space-y-12">
     <div className="border-b border-gray-900/10 pb-12">
      <h2 class="text-base font-semibold leading-7 text-gray-900">Temple Information</h2>
-      <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+     
+      <div className="mt-10  gridcnt">
         {/* Event Name */}
-        <div className="sm:col-span-4">
+        
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
             Temple Name
           </label>
@@ -36,7 +41,7 @@ export default function Form() {
           </div>
         </div>
         {/* Location */}
-        <div className="sm:col-span-4">
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
             Geographical Location
           </label>
@@ -50,11 +55,13 @@ export default function Form() {
                 autoComplete="username"
                 className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                 placeholder="Location" />
-            </div>
+                </div>
+                
           </div>
         </div>
         {/* Date */}
-        <div className="sm:col-span-4">
+        
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
             Establishment Date
           </label>
@@ -72,7 +79,7 @@ export default function Form() {
             </div>
           </div>
         </div>
-        <div className="sm:col-span-4">
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
             Contact Information
           </label>
@@ -87,11 +94,11 @@ export default function Form() {
                 className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                 placeholder="Contact" />
             </div>
-
+            
           </div>
-          
+
         </div>
-        <div className="sm:col-span-4">
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
             Owner Name
           </label>
@@ -108,7 +115,7 @@ export default function Form() {
             </div>
           </div>
         </div>
-        <div className="sm:col-span-4">
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
             Scientific Reason
           </label>
@@ -125,7 +132,7 @@ export default function Form() {
             </div>
           </div>
         </div>
-        <div className="sm:col-span-4">
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
             Myth
           </label>
@@ -139,10 +146,10 @@ export default function Form() {
                 autoComplete="username"
                 className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                 placeholder="" />
-            </div>
+          </div>
           </div>
         </div>
-        <div className="sm:col-span-4">
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
            Why Famous
           </label>
@@ -159,7 +166,7 @@ export default function Form() {
             </div>
           </div>
         </div>
-        <div className="sm:col-span-4">
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
            Attacks On Temple
           </label>
@@ -176,7 +183,7 @@ export default function Form() {
             </div>
           </div>
         </div>
-        <div className="sm:col-span-4">
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
           No. of visitors
           </label>
@@ -193,7 +200,7 @@ export default function Form() {
             </div>
           </div>
         </div>
-        <div className="sm:col-span-4">
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
            Yearly Donation
           </label>
@@ -210,7 +217,7 @@ export default function Form() {
             </div>
           </div>
         </div>
-        <div className="sm:col-span-4">
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
            Yearly Events
           </label>
@@ -227,7 +234,7 @@ export default function Form() {
             </div>
           </div>
         </div>
-        <div className="sm:col-span-4">
+        <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
            Temple Visit Timing
           </label>
@@ -246,7 +253,7 @@ export default function Form() {
         </div>
         
        {/* category */}
-        <div className="sm:col-span-3">
+        <div className="griditem">
           <label htmlFor="category" className="block text-sm font-medium leading-6 text-gray-900">
             Spritual Places
           </label>

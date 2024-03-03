@@ -79,9 +79,9 @@ export default function Navbar() {
             </ul>
           </div>
         </div>
-        <div class="flex-1 text-center">
+        <Link to ="/article" class="flex-1 text-center">
           Articles
-        </div>
+        </Link>
         <Link to="/form" class="flex-1 text-center">
           Promotion
         </Link>
