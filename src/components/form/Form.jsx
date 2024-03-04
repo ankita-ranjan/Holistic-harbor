@@ -17,7 +17,7 @@ export default function Form() {
   <div className='border-2 rounded-lg  p-6 mb-10 bg-white'>
   <div className="space-y-12">
     <div className="border-b border-gray-900/10 pb-12">
-     <h2 class="text-base font-semibold leading-7 text-gray-900">Temple Information</h2>
+     <h2 class="text-base font-semibold leading-7 text-gray-900 text-center">Temple Information</h2>
      
       <div className="mt-10  gridcnt">
         {/* Event Name */}
