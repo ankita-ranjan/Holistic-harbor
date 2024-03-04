@@ -1,0 +1,33 @@
+.gridcnt{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+
+
+form{
+    width: 80%;
+    margin: 0 20px 0 20px;
+}
+
+.griditem{
+    margin: 20px 10px 20px 10px
+}
+
+
+@media only screen and (max-width:476px){
+    .gridcnt{
+        display: grid;
+        grid-template-columns: auto ;
+        
+    }
+    
+    
+    
+
+}
+input:focus{
+    outline :none;
+
+}
