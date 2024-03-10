@@ -4,6 +4,13 @@ import LoginPage from './pages/LoginPage';
 import SignuPage from './pages/SignuPage';
 import Formpage from './pages/Formpage';
 import  ArticlePage  from './pages/ArticlePage';
+import HinduPage from './pages/HinduPage';
+import Church1Page from './pages/Church1Page';
+import BuddhaPage from './pages/BuddhaPage';
+import GurudwaraPage from './pages/GurudwaraPage';
+import JaintemplePage from './pages/JaintemplePage';
+import MosquePage from './pages/MosquePage';
+import AboutUs from './components/AboutUs/AboutUs';
 
 
 
@@ -26,7 +33,35 @@ const router = createBrowserRouter([
   },
   {
     path:'/article',
-    element:<ArticlePage />
+    element:<ArticlePage/>
+  },
+  {
+    path: "aboutus",
+    element: <AboutUs />,
+  },
+  {
+    path:'/exploreplaces/hindu',
+    element:<HinduPage/>
+  },
+  {
+    path:'/exploreplaces/church',
+    element:<Church1Page/>
+  },
+  {
+    path:'/exploreplaces/budha',
+    element:<BuddhaPage/>
+  },
+  {
+    path:'/exploreplaces/gurudwara',
+    element:<GurudwaraPage/>
+  },
+  {
+    path:'/exploreplaces/jaintemple',
+    element:<JaintemplePage/>
+  },
+  {
+    path:'/exploreplaces/mosque',
+    element:<MosquePage/>
   },
   
 

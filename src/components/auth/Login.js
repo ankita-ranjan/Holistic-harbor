@@ -1,13 +1,11 @@
-import React  from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
-
 export default function Login() {
-
   return (
     <div>
       <div className="bg-base-200">
-        <div className="flex flex-col  justify-center pt-10 pb-14 sm:px-6 lg:px-8">
+        <div className="flex flex-col justify-center pt-10 pb-14 sm:px-6 lg:px-8">
           <div className="flex flex-col justify-center sm:mx-auto sm:w-full sm:max-w-md"></div>
           <div className="mt-8 sm:mx-auto bg-base-100 sm:w-full sm:max-w-md">
             <div className="bg-layer-2 py-8 px-4 shadow sm:rounded-lg sm:px-10">
