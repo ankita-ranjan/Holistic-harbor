@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../assets/holisticlogo.png'
+import image from '../images/holistic.png'
 import { MdAccountCircle } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div>
       <div className='navbar py-4 px-4 bg-gradient-to-r from-orange-500 via-white to-green-500'>
-        <div className='navbar-start'><img src={image} alt="" className='w-10 h-10 rounded-full md:w-20 md:h-20 ' />
+        <div className='navbar-start'><img src={image} alt="" className='w-20 h-20 rounded-full md:w-30 md:h-30 ' />
         </div>
        
       
@@ -41,18 +41,36 @@ export default function Navbar() {
 
       <div class="flex bg-black text-sm text-white py-1">
         <div className="flex-1 text-center">
-          Home
+         <Link to="/">Home</Link>
         </div>
         <div className="flex-1 text-center dropdown dropdown-hover ml-50">
           Explore places
           <div className='justify-center'>
             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow  flex flex-col items-center  w-25 text-white bg-black">
-              <li><a>Hindu Temple</a></li>
-              <li><a>Mosques</a></li>
-              <li><a>Gurudwara</a></li>
-              <li><a>Churches</a></li>
-              <li><a>Budha Temple</a></li>
-              <li><a>Jain Temple</a></li>
+              <Link to ="/exploreplaces/hindu" class="flex-1 text-center">
+             HinduTemple
+              </Link>
+              
+              <Link to="/exploreplaces/mosque" class="grid text -centre">
+                Mosque
+              </Link>
+
+              <Link to="/exploreplaces/gurudwara" class="grid text -centre">
+                Gurudwara
+              </Link>
+
+              <Link to="/exploreplaces/church" class="grid text -centre">
+                Churches
+              </Link>
+
+              <Link to="/exploreplaces/budha" class="grid text -centre">
+              Buddha
+              </Link>
+
+              <Link to="/exploreplaces/jaintemple" class="grid text -centre">
+              Jain Temple
+              </Link>
+              
               <li><a>Zorostrian Temple</a></li>
               <li><a>Judaism Temple</a></li>
             </ul>
@@ -85,8 +103,14 @@ export default function Navbar() {
         <Link to="/form" class="flex-1 text-center">
           Promotion
         </Link>
+      {"  "}
+      <Link to="/AboutUs" className="flex-1 text-center">
+          About us
+        </Link>
       </div>
-
+      {/* daisyui: {
+    themes: ["light", "dark", "cupcake"],
+     } */}
 
     </div>
   )
