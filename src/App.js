@@ -11,7 +11,8 @@ import GurudwaraPage from './pages/GurudwaraPage';
 import JaintemplePage from './pages/JaintemplePage';
 import MosquePage from './pages/MosquePage';
 import AboutUs from './components/AboutUs/AboutUs';
-
+import JudaismPage from './pages/JudaismPage';
+import ZoroastrianPage from './pages/ZoroastrianPage';
 
 
 const router = createBrowserRouter([
@@ -63,7 +64,14 @@ const router = createBrowserRouter([
     path:'/exploreplaces/mosque',
     element:<MosquePage/>
   },
-  
+  {
+    path:'/exploreplaces/judaismtemple',
+    element:<JudaismPage/>
+  },
+  {
+    path:'/exploreplaces/zoroastrian',
+    element:<ZoroastrianPage/>
+  },
 
 ])
 

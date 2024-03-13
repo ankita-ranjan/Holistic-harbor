@@ -120,7 +120,7 @@ export default function Article() {
   };
 
   return (
-    <div className="bg-gradient-to-b from-orange-300 via-white to-green-300 ">
+    <div className="bg- via-white ">
       <div className="grid  lg:grid-cols-3  grid-cols-1 p-4 ">
         {currentItems.map((item, index) => (
           <div
