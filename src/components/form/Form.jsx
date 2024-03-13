@@ -11,16 +11,16 @@ export default function Form() {
     <div class=".">
    
    
-        <div className="min-h-screen flex items-center justify-center pt-20 bg-gradient-to-b from-orange-300 via-white to-green-300">
+        <div className="min-h-screen flex items-center justify-center pt-20 bg- via-white">
 
 <form >
   <div className='border-2 rounded-lg  p-6 mb-10 bg-white'>
   <div className="space-y-12">
     <div className="border-b border-gray-900/10 pb-12">
-     <h2 class="text-base font-semibold leading-7 text-gray-900 text-center">Temple Information</h2>
+     <h2 class="text-2xl font-semibold leading-7 text-orange-700 text-center">Temple Information</h2>
      
       <div className="mt-10  gridcnt">
-        {/* Event Name */}
+       
         
         <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
@@ -40,7 +40,7 @@ export default function Form() {
             </div>
           </div>
         </div>
-        {/* Location */}
+       
         <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
             Geographical Location
@@ -59,7 +59,7 @@ export default function Form() {
                 
           </div>
         </div>
-        {/* Date */}
+      
         
         <div className="griditem">
           <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
@@ -252,7 +252,7 @@ export default function Form() {
           </div>
         </div>
         
-       {/* category */}
+      
         <div className="griditem">
           <label htmlFor="category" className="block text-sm font-medium leading-6 text-gray-900">
             Spritual Places
@@ -275,7 +275,7 @@ export default function Form() {
         </div>
      
 
-        {/* about event */}
+       
         <div className="col-span-full">
           <label htmlFor="about" className="block text-sm font-medium leading-6 text-gray-900">
            Promotion Details
@@ -290,7 +290,7 @@ export default function Form() {
             />
           </div>
         </div>
-        {/* banner off event */}
+       
         <div className="col-span-full">
           <label htmlFor="cover-photo" className="block text-sm font-medium leading-6 text-gray-900">
             Upload Images of Temple
@@ -318,7 +318,7 @@ export default function Form() {
   </div>
 
  
-  {/* cancel or sav button */}
+ 
 <div class="mt-6 flex items-center justify-end gap-x-6">
 <button type="button" class="text-sm font-semibold leading-6 text-gray-900">
   Cancel
