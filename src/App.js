@@ -13,6 +13,7 @@ import MosquePage from './pages/MosquePage';
 import AboutUs from './components/AboutUs/AboutUs';
 import JudaismPage from './pages/JudaismPage';
 import ZoroastrianPage from './pages/ZoroastrianPage';
+import RammindarPage from './pages/RammindarPage';
 
 
 const router = createBrowserRouter([
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
   {
     path:'/exploreplaces/zoroastrian',
     element:<ZoroastrianPage/>
+  },
+  {
+    path:'/discription/rammindar',
+    element:<RammindarPage/>
   },
 
 ])
