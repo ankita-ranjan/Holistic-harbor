@@ -15,7 +15,7 @@ export default function Hero({ deviceType }) {
           <img
             src={image1}
             alt="image 1"
-            className="w-full h-96 object-fit object-center"
+            className="w-full H-100 object-fit object-center"
           />
         </div>
 
@@ -23,7 +23,7 @@ export default function Hero({ deviceType }) {
           <img
             src={image2}
             alt="image 2"
-            className="w-full h-96 object-fit object-center"
+            className="w-full H-100 object-fit object-center"
           />
         </div>
 
@@ -31,7 +31,7 @@ export default function Hero({ deviceType }) {
           <img
             src={image3}
             alt="image 3"
-            className="w-full h-96 object-fit object-center"
+            className="w-full h-100 object-fit object-center"
           />
         </div>
       </Carousel>

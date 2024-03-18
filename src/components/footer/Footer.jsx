@@ -38,7 +38,7 @@ const Footer = () => {
   return (
     <div className="bg-gradient-to-r from-orange-500 via-white to-green-500 fonts">
       <div className="container mx-auto py-6  flex flex-col md:flex-row sm:justify-between items-center justify-center ">
-        <div className="w-full md:w-1/3">
+        <div className="w-full md:w-1/3 items-center flex justify-center">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.6604613704817!2d76.70609037551208!3d30.699827987222243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef39a32ed3c1%3A0x9ff15a51ad5117e9!2sDepartment%20of%20Holistic%20Education!5e0!3m2!1sen!2sin!4v1706939393027!5m2!1sen!2sin"
             width={250}
@@ -50,7 +50,7 @@ const Footer = () => {
             className=""
           />
         </div>
-        <div className="w-full md:w-1/3 mt-6 md:mt-0">
+        <div className="w-full md:w-1/3 mt-6 md:mt-0 flex justify-center items-center">
           <form className="text-orange-700 ">
             <h4 className="text-lg font-bold mb-4 flex justify-center">
               CONTACT US
