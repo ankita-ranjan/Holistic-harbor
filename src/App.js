@@ -14,6 +14,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import JudaismPage from './pages/JudaismPage';
 import ZoroastrianPage from './pages/ZoroastrianPage';
 import RammindarPage from './pages/RammindarPage';
+import JagannathPage from './pages/JagannathPage';
 
 
 const router = createBrowserRouter([
@@ -74,8 +75,12 @@ const router = createBrowserRouter([
     element:<ZoroastrianPage/>
   },
   {
-    path:'/discription/rammindar',
+    path:'/discription/Rammandir',
     element:<RammindarPage/>
+  },
+  {
+    path:'/discription/jagannath',
+    element:<JagannathPage/>
   },
 
 ])
