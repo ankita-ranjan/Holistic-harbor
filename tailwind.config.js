@@ -7,7 +7,11 @@ module.exports = withMT({
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{ 
+      'lato': ['Bentham', 'serif'],
+      },
+    },
   },
   plugins: [require("daisyui")],
 })
