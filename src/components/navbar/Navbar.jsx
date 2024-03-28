@@ -69,7 +69,7 @@ export default function Navbar() {
               <button type="button" class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500">
 
               <Link to="/exploreplaces/hindu"   className="flex-1 text-center ">
-                HINDU TEMPLE
+                HINDU TEMPLES
                 </Link>
                 </button>
                 <button type="button" class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500">
@@ -79,7 +79,7 @@ export default function Navbar() {
               </button>
               <button type="button" class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500">
               <Link to="/exploreplaces/gurudwara" class="grid text -centre hover:bg-orange-500">
-                GURUDWARA
+                SIKH TEMPLES
               </Link>
               </button>
               <button type="button" class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500">
@@ -89,12 +89,12 @@ export default function Navbar() {
               </button>
               <button type="button" class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500">
               <Link to="/exploreplaces/budha" class="grid text -centre hover:bg-orange-500">
-                BUDDHA
+                BOUDH TEMPLES
               </Link>
               </button>
               <button type="button" class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500">
               <Link to="/exploreplaces/jaintemple" class="grid text -centre hover:bg-orange-500">
-                JAIN TEMPLE
+                JAIN TEMPLES
               </Link>
               </button>
               <button type="button" class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500">
@@ -104,7 +104,7 @@ export default function Navbar() {
               </button>
               <button type="button" class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500">
               <Link to="/exploreplaces/judaismtemple" class="grid text -centre hover:bg-orange-500">
-                JUDAISM TEMPLE
+                JUDAISM TEMPLES
               </Link>
               </button>
               
@@ -122,12 +122,7 @@ export default function Navbar() {
             <ul
               tabIndex={0}                                                                  
               className="dropdown-content z-[1] menu p-2 shadow  flex flex-col items-center  w-25 text-black bg-white">
-                
-              <li>
-                <a>RELIGIOUS NEWS</a>
-              </li>
-             
-              
+                 
               <li>
                 <a>PILGRIMAGES EXPERIENCE</a>
               </li>
@@ -146,7 +141,7 @@ export default function Navbar() {
                 <a>HINDU EVENTS</a>
               </li>
               <li>
-                <a>JEWS EVENTS</a>
+                <a>JEWISH EVENTS</a>
               </li>
               <li>
                 <a>PARSI EVENTS</a>
