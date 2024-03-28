@@ -8,12 +8,9 @@ export default function RammindarPage() {
   return (
     <div>
        <Helmet>
+       <title>Turbo Todo</title>
        <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Ram Mandir" />
-
-  <link rel="icon" href="%PUBLIC_URL%/holistic.png" />
-  <link rel="icon" href="%PUBLIC_URL%/holistic.png" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/holistic.png" />
+       <meta name="description" content="Helmet application" />
 
             </Helmet>
       <Navbar/>
