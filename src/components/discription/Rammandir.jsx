@@ -49,10 +49,8 @@ Apart from its religious significance, Ram Mandir also attracts tourists and his
             </p>
         </div>
         <div className='flex  flex-col md:items-end pe-10 '> 
-        <h1 className=' flex text-2xl text-orange-500'>Related Image</h1>
-      
+        <h1 className=' flex text-2xl text-orange-500'>History Related</h1>
 
-            
             <img src={rammandir4} className='my-4 w-full md:w-2/3 rounded-lg hover:scale-110 transform transition-transform' alt="Ram-Idol" />
             <img src={rammandir5} className='my-4 w-full md:w-2/3 rounded-lg hover:scale-110 transform transition-transform' alt="Ram-Idol" />
             <img src={rammandir6} className='my-4 w-full md:w-2/3 rounded-lg hover:scale-110 transform transition-transform' alt="Ram-Idol" />
@@ -63,7 +61,8 @@ Apart from its religious significance, Ram Mandir also attracts tourists and his
             <img src={rammandir3} className='my-4 w-full md:w-2/3 rounded-lg hover:scale-110 transform transition-transform' alt="Ram-Idol" />
             <img src={rammandir9} className='my-4 w-full md:w-2/3 rounded-lg hover:scale-110 transform transition-transform' alt="Ram-Idol" />
             <img src={rammandir10} className='my-4 w-full md:w-2/3 rounded-lg hover:scale-110 transform transition-transform' alt="Ram-Idol" />
-          
+            
+
             </div>
     </div>
     </div>
