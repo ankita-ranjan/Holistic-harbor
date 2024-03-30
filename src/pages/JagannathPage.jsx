@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
-import Jagannath from '../components/discription/Jagannath'
+import Jagannath from '../components/description/Jagannath'
 
 export default function JagannathPage() {
   return (

@@ -5,10 +5,10 @@ export default function Login() {
   return (
     <div>
       <div className="bg-base-200">
-        <div className="flex flex-col justify-center pt-10 pb-14 sm:px-6 lg:px-8">
+        <div className="flex flex-col justify-center pt-10 pb-14 sm:px-6 lg:px-6">
           <div className="flex flex-col justify-center sm:mx-auto sm:w-full sm:max-w-md"></div>
           <div className="mt-8 sm:mx-auto bg-base-100 sm:w-full sm:max-w-md">
-            <div className="bg-layer-2 py-8 px-4 shadow sm:rounded-lg sm:px-10">
+            <div className="bg-layer-2 py-4 px-4 shadow sm:rounded-lg sm:px-10">
               <h1 className="text-center text-orange-400 text-3xl font-semibold text-heading">
                 Welcome Back!
               </h1>
@@ -16,8 +16,7 @@ export default function Login() {
                 No account?{" "}
                 <Link
                   to="/signup"
-                  className="font-semibold text-orange-400 hover:text-primary-accent"
-                >
+                  className="font-semibold text-orange-400 hover:text-primary-accent">
                   Sign up
                 </Link>
               </p>
