@@ -23,7 +23,7 @@ export default function Article() {
       img: temple,
       title: "Ram Mandir: A Place of Belief and Harmony",
       description:
-        "In Ayodhya, there's a special place called Ram Mandir, dedicated to Lord Ram.",
+        "The Ram Mandir, dedicated to Lord Ram, holds a special place in the hearts of millions of Hindus worldwide.",
         route:"/discription/Rammandir"
     },
     

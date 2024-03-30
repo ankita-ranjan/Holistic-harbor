@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
-import Rammindar from '../components/discription/Rammandir'
+import Rammindar from '../components/description/Rammandir'
 import {Helmet} from "react-helmet";
 
 export default function RammindarPage() {
@@ -9,8 +9,10 @@ export default function RammindarPage() {
     <div>
        <Helmet>
        <title>Turbo Todo</title>
-       <meta name="theme-color" content="#000000" />
-       <meta name="description" content="Helmet application" />
+       <meta property="og:type"               content="article" />
+          <meta property="og:title"              content="titulo para el home de la tienda" />
+          <meta property="og:description"        content="esta es la decripcion del home de la tienda" />
+          <meta property="og:image"              content="https://media.gettyimages.com/photos/bogota-at-sunset-picture-id107069344?s=612x612" />
 
             </Helmet>
       <Navbar/>
