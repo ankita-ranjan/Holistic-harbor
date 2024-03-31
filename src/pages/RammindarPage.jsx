@@ -13,7 +13,7 @@ export default function RammindarPage() {
         <meta property="og:title" content="Titulo para el home de la tienda" />
         <meta property="og:description" content="Esta es la descripción del home de la tienda" />
         <meta property="og:image" content="https://media.gettyimages.com/photos/bogota-at-sunset-picture-id107069344?s=612x612" />
-        <meta property="og:url" content="Your URL here" />
+        <meta property="og:url" content="https://www.alltemples.org.in/discription/Rammandir" />
       </Helmet>
       <Navbar />
       <Rammindar />
