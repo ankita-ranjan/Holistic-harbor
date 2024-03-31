@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/navbar/Navbar';
 import Footer from '../components/footer/Footer';
 import Rammindar from '../components/description/Rammandir';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 export default function RammindarPage() {
   return (
