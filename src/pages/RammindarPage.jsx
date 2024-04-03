@@ -8,6 +8,7 @@ export default function RammindarPage() {
       <Navbar/>
        <Rammindar/>
        <Footer/>
+
     </div>
   )
 }
