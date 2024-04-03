@@ -15,6 +15,8 @@ import JudaismPage from "./pages/JudaismPage";
 import ZoroastrianPage from "./pages/ZoroastrianPage";
 import PilgrimagePage from "./pages/PilgrimagePage";
 import HinduEventsPage from "./pages/HinduEventsPage";
+import RammindarPage from "./pages/RammindarPage";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -75,6 +77,10 @@ const router = createBrowserRouter([
   {
     path: "/forums/pilgrimages",
     element: <PilgrimagePage />,
+  },
+  {
+    path:"/discription/rammindar", 
+    element:<RammindarPage/>
   },
   {
     path:"/events/hinduevents",
