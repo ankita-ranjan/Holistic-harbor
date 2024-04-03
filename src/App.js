@@ -86,6 +86,7 @@ const router = createBrowserRouter([
     path:"/events/hinduevents",
     element:<HinduEventsPage/>
   }
+  
 ]);
 
 function App() {
