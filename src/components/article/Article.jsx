@@ -8,12 +8,6 @@ import kedarnath from "./kedarnath.jpeg";
 import Vaishno from "./Vaishno.jpeg";
 import somnath from "./somnath.jpeg";
 import golden from "./golden.jpeg";
-import hampi from "./hampi.jpeg";
-import premmandir from "./premmandir.jpeg";
-import rishikesh from "./rishikesh.jpeg";
-import varanasi from "./varanasi.jpeg";
-import shirdi from "./shirdi.jpeg";
-import karni from "./karni.jpeg";
 import { Link } from "react-router-dom";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
@@ -23,8 +17,7 @@ export default function Article() {
       img: temple,
       title: "Ram Mandir: A Place of Belief and Harmony",
       description:
-        "The Ram Mandir, dedicated to Lord Ram, holds a special place in the hearts of millions of Hindus worldwide.",
-        route:"/discription/Rammandir"
+        "In Ayodhya, there's a special place called Ram Mandir, dedicated to Lord Ram.",
     },
     
     {
@@ -33,7 +26,6 @@ export default function Article() {
       title: "Jagannath Puri: A Sacred Haven",
       description:
         "This temple is dedicated to Lord Jagannath, a form of Lord Vishnu, along with his brother Balabhadra and sister Subhadra.",
-        route:"/discription/jagannath"
        },
     
     {
@@ -79,40 +71,40 @@ export default function Article() {
         "In the vibrant city of Amritsar, Punjab, stands a majestic and sacred place called the Golden Temple.",
     },
     {
-      img: hampi,
-      title: "Hampi: A Journey Through Time",
+      img: temple,
+      title: "The Coldest Sunset",
       description:
-        "In the heart of Karnataka, India, lies a treasure trove of ancient wonders known as Hampi.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
     },
     {
-      img: premmandir,
-      title: "Prem Mandir: A Divine Abode of Love and Devotion",
+      img: temple,
+      title: "The Coldest Sunset",
       description:
-        "At the heart of Prem Mandir lies the sacred bond between Lord Krishna and Radha, celebrated as the epitome of divine love in Hindu mythology. ",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
     },
     {
-      img: rishikesh,
-      title: "Rishikesh: A Serene Escape in Nature's Embrace",
+      img: temple,
+      title: "The Coldest Sunset",
       description:
-        "Rishikesh is blessed with the pristine waters of the sacred Ganges River, which flows gracefully through the town, offering a serene backdrop for meditation and reflection.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
     },
     {
-      img: varanasi,
-      title: "Varanasi: A Timeless Journey Along the Banks of the Ganges",
+      img: temple,
+      title: "The Coldest Sunset",
       description:
-        "Varanasi, also known as Kashi or Banaras, is one of the oldest cities in the world and holds a special place in the heart of every Indian.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
     },
     {
-      img: shirdi,
-      title: "Shirdi: A Spiritual Haven in Maharashtra",
+      img: temple,
+      title: "The Coldest Sunset",
       description:
-        "Shirdi, a small town in the state of Maharashtra, holds a special place in the hearts of millions of devotees around the world.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
     },
     {
-      img: karni,
-      title: "Karni: A Serene Haven in Nature's Embrace",
+      img: temple,
+      title: "The Coldest Sunset",
       description:
-        " Located in the heart of the countryside, Karni is a hidden gem waiting to be discovered by nature lovers and adventure enthusiasts alike.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
     },
     {
       img: temple,
@@ -150,7 +142,7 @@ export default function Article() {
             key={index}
             class="max-w-sm rounded overflow-hidden shadow-lg bg-white m-2"
           >
-            <img class="sm:h-60 w-full hover:scale-110 transform transition-transform rounded-lg" src={item.img} alt="Sunset in the mountains" />
+            <img class="sm:h-60 w-full" src={item.img} alt="Sunset in the mountains" />
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2 text-orange-500">{item.title}</div>
               <p class="text-black text-base flex">
@@ -158,10 +150,9 @@ export default function Article() {
                 {readMore && item.description}
                 <p onClick={handleClick} className="items-end flex flex-col justify-end text-2xl text-orange-500 hover:text-orange-700 ">
                   {" "}
-                 <Link to = {item.route}>
+                 <Link to = "/discription/rammindar">
                  <FaRegArrowAltCircleRight />
                  </Link>
-             
                  
                 </p>{" "}
               </p>
