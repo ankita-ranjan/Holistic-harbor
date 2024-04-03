@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/navbar/Navbar';
 import Hero from '../components/home/Hero';
 import Footer from '../components/footer/Footer';
-
+import Festivals from "../components/home/Festivals";
 
 export default function HomePage() {
  
@@ -10,12 +10,11 @@ export default function HomePage() {
 
   return (
     <div>
-   
-      <Navbar/>
+      <Navbar />
 
-      <Hero/>
-      <Footer/>
-
+      <Hero />
+      <Festivals />
+      <Footer />
     </div>
   );
 }
