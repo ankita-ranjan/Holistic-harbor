@@ -22,7 +22,7 @@ export default function Navbar() {
               </div>
             </p>
           </div>
-          z
+          
           <div className="">
             <Link to="/login">
               <button className=" text-black border-black border-2 rounded-md py-1 px-2 hover:bg-black hover:text-green-500  sm:flex sm:items-center hidden lg:block">
@@ -77,58 +77,49 @@ export default function Navbar() {
           <div className="justify-center">
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow  flex flex-col items-center  w-25 text-black bg-white"
-            >
+              className="dropdown-content z-[1] menu p-2 shadow  flex flex-col items-center  w-25 text-black bg-white">
               <button
                 type="button"
-                class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500"
-              >
+                class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500">
                 <Link to="/exploreplaces/hindu" className="flex-1 text-center ">
                   HINDU TEMPLE
                 </Link>
               </button>
               <button
                 type="button"
-                class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500"
-              >
+                class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500">
                 <Link
                   to="/exploreplaces/mosque"
-                  class="grid text -centre hover:bg-orange-500"
-                >
+                  class="grid text -centre hover:bg-orange-500">
                   MOSQUE
                 </Link>
               </button>
               <button
                 type="button"
-                class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500"
-              >
+                class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500">
                 <Link
                   to="/exploreplaces/gurudwara"
-                  class="grid text -centre hover:bg-orange-500"
-                >
-                  GURUDWARA
+                  class="grid text -centre hover:bg-orange-500" >
+                  SIKH TEMPLES
+                 
                 </Link>
               </button>
               <button
                 type="button"
-                class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500"
-              >
+                class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500" >
                 <Link
                   to="/exploreplaces/church"
-                  class="grid text -centre hover:bg-orange-500"
-                >
+                  class="grid text -centre hover:bg-orange-500">
                   CHURCHES
                 </Link>
               </button>
               <button
                 type="button"
-                class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500"
-              >
+                class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500">
                 <Link
                   to="/exploreplaces/budha"
-                  class="grid text -centre hover:bg-orange-500"
-                >
-                  BUDDHA
+                  class="grid text -centre hover:bg-orange-500">
+                  BOUDH TEMPLES
                 </Link>
               </button>
               <button
@@ -173,16 +164,9 @@ export default function Navbar() {
           <div className="justify-center">
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow  flex flex-col items-center  w-25 text-black bg-white"
-            >
-              <li>
-                <a>RELIGIOUS NEWS</a>
-              </li>
-
-              <Link
-                to="/forums/pilgrimages"
-                class="grid text -centre hover:bg-orange-500"
-              >
+              className="dropdown-content z-[1] menu p-2 shadow  flex flex-col items-center  w-25 text-black bg-white">
+              <Link to="/forums/pilgrimages"
+                class="grid text -centre hover:bg-orange-500">
                 PILGRIMAGE EXPERIENCE
               </Link>
             </ul>
@@ -193,22 +177,21 @@ export default function Navbar() {
           <div className="justify-center">
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow  flex flex-col items-center  w-25 text-black bg-white"
-            >
-              
-              <Link
-                to="/events/hinduevents"
-                class="grid text -centre hover:bg-orange-500"
-              >
-               HINDU EVENTS
+              className="dropdown-content z-[1] menu p-2 shadow  flex flex-col items-center  w-25 text-black bg-white">
+              <li className="hover:bg-orange-500 hover:text-white">
+              <Link to="/events/hinduevents">
+               <a>HINDU EVENTS</a>
               </Link>
-              <li>
-                <a>JEWS EVENTS</a>
               </li>
-              <li>
+              
+              
+              <li className="hover:bg-orange-500 hover:text-white">
+                <a>JEWISH EVENTS</a>
+              </li>
+              <li className="hover:bg-orange-500 hover:text-white">
                 <a>PARSI EVENTS</a>
               </li>
-              <li>
+              <li className="hover:bg-orange-500 hover:text-white">
                 <a>RELIGIOUS TRAVELLING</a>
               </li>
             </ul>

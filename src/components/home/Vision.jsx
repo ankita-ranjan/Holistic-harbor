@@ -8,7 +8,7 @@ const Vision = () => {
 
         <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 relative z-10">
           <h2 className="text-3xl font-bold text-center text-orange-700 mb-6 font-serif -mt-9">
-            Our Vission
+            Our Vision
           </h2>{" "}
           <div className="text-lg leading-relaxed font-serif text-justify">
             <p className="-mb-2">
