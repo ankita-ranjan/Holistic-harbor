@@ -15,8 +15,22 @@ import JudaismPage from "./pages/JudaismPage";
 import ZoroastrianPage from "./pages/ZoroastrianPage";
 import PilgrimagePage from "./pages/PilgrimagePage";
 import HinduEventsPage from "./pages/HinduEventsPage";
-import RammindarPage from "./pages/RammindarPage";
-
+import RammandirPage from "./pages/RammandirPage";
+import Jagannath from "./pages/jagannathPage";
+import RemeshwaramPage from "./pages/RemeshwaramPage"
+import DwarkaPage from "./pages/DwarkaPage";
+import BadrinathPage from "./pages/BadrinathPage";
+import KedarnathPage from "./pages/KedarnathPage";
+import VaishnoPage from "./pages/VaishnoPage";
+import SomnathPage from "./pages/SomnathPage";
+import GoldenPage from "./pages/GoldenPage";
+import HampiPage from "./pages/HampiPage";
+import PremmandirPage from "./pages/PremmandirPage";
+import RishikeshPage from "./pages/RishikeshPage";
+import VaranasiPage from "./pages/VaranasiPage";
+import ShirdiPage from "./pages/ShirdiPage";
+import KarniPage from "./pages/KarniPage";
+  
 const router = createBrowserRouter([
   {
     path: "/",
@@ -79,8 +93,64 @@ const router = createBrowserRouter([
     element: <PilgrimagePage />,
   },
   {
-    path:"/discription/rammindar", 
-    element:<RammindarPage/>
+    path:"/article/rammandir", 
+    element:<RammandirPage/>
+  },
+  {
+    path:"/article/jagannath",
+    element:<Jagannath/>
+  },
+  {
+    path:"/article/remeshwaram",
+    element:<RemeshwaramPage/>
+  },
+  {
+    path:"/article/dwarka",
+    element:<DwarkaPage/>
+  },
+  {
+    path:"/article/badrinath",
+    element:<BadrinathPage/>
+  },
+  {
+    path:"/article/kedarnath",
+    element:<KedarnathPage/>
+  },
+  {
+    path:"/article/vaishno",
+    element:<VaishnoPage/>
+  },
+  {
+    path:"/article/somnath",
+    element:<SomnathPage/>
+  },
+  {
+    path:"/article/golden",
+    element:<GoldenPage/>
+  },
+  {
+    path:"/article/hampi",
+    element:<HampiPage/>
+  },
+  {
+    path:"/article/premmandir",
+    element:<PremmandirPage/>
+  },
+  {
+    path:"/article/rishikesh",
+    element:<RishikeshPage/>
+  },
+  {
+    path:"/article/varanasi",
+    element:<VaranasiPage/>
+  },
+  {
+    path:"/article/shirdi",
+    element:<ShirdiPage/>
+  },
+  {
+    path:"/article/karni",
+    element:<KarniPage/>
   },
   {
     path:"/events/hinduevents",

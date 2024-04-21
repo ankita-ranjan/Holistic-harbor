@@ -15,39 +15,39 @@ import Festivals from "./Festivals";
 const data = [
   {
     img: image1,
-    title: "Ram Mandir: A Place of Belief and Harmony",
+    title: " Exploring Hinduism: An Introduction to the World's Oldest Living Tradition",
     description:
-      "In Ayodhya, there's a special place called Ram Mandir, dedicated to Lord Ram.",
+      "Hinduism, often referred to as Sanatana Dharma, is one of the world's oldest religions, with a rich tapestry of beliefs, traditions, and practices that have evolved over thousands of years.",
   },
   {
     img: image2,
-    title: "The Golden Temple: A Place of Peace and Unity",
+    title: "Sikhism: A Journey of Devotion and Equality",
     description:
-      "In the vibrant city of Amritsar, Punjab, stands a majestic and sacred place called the Golden Temple.",
+      "In the vibrant city of Amritsar, Punjab, stands a majestic and sacred place called the Golden Temple.Sikhism, founded by Guru Nanak in the 15th century, is a monotheistic religion that emphasizes the principles of equality, selfless service, and devotion to God.",
   },
   {
     img: image3,
-    title: "Ram Mandir: A Place of Belief and Harmony",
+    title: "Exploring Christianity: A Journey of Faith",
     description:
-      "In Ayodhya, there's a special place called Ram Mandir, dedicated to Lord Ram.",
+      "Christianity, one of the world's largest religions, traces its origins to the teachings of Jesus Christ in the first century AD.",
   },
   {
     img: image4,
-    title: "Ram Mandir: A Place of Belief and Harmony",
+    title: "Embracing Islam: A Journey of Submission and Surrender",
     description:
-      "In Ayodhya, there's a special place called Ram Mandir, dedicated to Lord Ram.",
+      "Islam, one of the world's major religions, is based on the teachings of the Prophet Muhammad, who lived in Arabia in the 7th century. ",
   },
   {
     img: image5,
-    title: "Ram Mandir: A Place of Belief and Harmony",
+    title: " Exploring the Essence of Buddhism: A Journey to Enlightenment",
     description:
-      "In Ayodhya, there's a special place called Ram Mandir, dedicated to Lord Ram.",
+      "Embark on a profound exploration of Buddhism, an ancient philosophy and spiritual tradition that offers timeless wisdom for modern life.",
   },
   {
     img: image6,
-    title: "Ram Mandir: A Place of Belief and Harmony",
+    title: "Jainism: The Path of Nonviolence and Spiritual Liberation",
     description:
-      "In Ayodhya, there's a special place called Ram Mandir, dedicated to Lord Ram.",
+      "ainism, one of the oldest religions in the world, traces its roots back to ancient India. Founded by Lord Mahavira in the 6th century BCE",
   },
 ];
 export default function Hero({ deviceType }) {
@@ -83,85 +83,86 @@ export default function Hero({ deviceType }) {
 
   return (
     <div>
-      <Carousel loop={true} autoplay={true} className="">
-        {data.map(({ img, title, description }) => {
-          return (
-            <div>
-              <img
-                src={img}
-                alt="image 1"
-                className="h-96 w-full object-cover"/>
-              <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center p-4">
-                <h1 className="text-4xl font-bold mb-2 animate-fadeIn">
-                  {title}
-                </h1>
-                <p className="text-xl mb-4 animate-slideIn">{description}</p>
-                <button className="bg-yellow-500 text-white py-2 px-4 rounded-lg mt-4">
-                  Get help now
-                </button>
-              </div>
-            </div>
-          );
-        })}
-      </Carousel>
+  <Carousel loop={true} autoplay={true} className="relative bg-gradient-to-b from-gray-300 to-black">
+  {data.map(({ img, title, description }, index) => {
+    return (
+      <div key={index} className="relative">
+        <img
+          src={img}
+          className="h-96 w-full object-cover"
+        />
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center p-4">
+          <h1 className="text-4xl font-bold mb-2 animate-fadeIn">
+            {title}
+          </h1>
+          <p className="text-xl mb-4 animate-slideIn">{description}</p>
+          <button className="bg-orange-500 text-white py-2 px-4 rounded-lg mt-4">
+            Get help now
+          </button>
+        </div>
+      </div>
+    );
+  })}
+</Carousel>
 
-      <div className=" py-0.5"></div>
+
+      <div className=""></div>
       <div className="bg-black py-8">
-        <div className="text-white text-center">
+        <div className="text-orange-500 text-center">
           <h2 className="text-3xl font-semibold italic">Upcoming Events</h2>
           <div className="text-2xl my-4 flex justify-center space-x-8">
             <div className="relative flex items-center">
               <div className="absolute inset-0 flex justify-center items-center">
-                <div className="w-24 h-24 bg-gray-800 rounded-full flex justify-center items-center text-yellow-500 italic">
+                <div className="w-24 h-24 bg-brown-900 rounded-full flex justify-center items-center text-orange-500 italic">
                   {timeLeft.days} days
                 </div>
               </div>
               <div className="w-28 h-28 bg-transparent rounded-full border-4 border--500 flex justify-center items-center">
-                <div className="w-20 h-20 bg-gray-700 rounded-full flex justify-center items-center text-red-500 italic">
-                  {timeLeft.days}
+                <div className="w-20 h-20 bg-brown-900 rounded-full flex justify-center items-center text-orange-500 italic">
+                  {timeLeft.days} 
                 </div>
               </div>
             </div>
             <div className="relative flex items-center">
               <div className="absolute inset-0 flex justify-center items-center">
                 <div
-                  className="w-24 h-24 bg-gray-800 rounded-full flex justify-center items-center text-yellow-500 italic">
+                  className="w-24 h-24 bg-brown-900 rounded-full flex justify-center items-center text-orange-500 italic">
                   {timeLeft.hours} hours
                 </div>
               </div>
               <div className="w-28 h-28 bg-transparent rounded-full border-4 border-light-500 flex justify-center items-center">
-                <div className="w-20 h-20 bg-gray-700 rounded-full flex justify-center items-center text-yellow-500 italic">
+                <div className="w-20 h-20 bg-brown-900 rounded-full flex justify-center items-center text-orange-500 italic">
                   {timeLeft.hours}
                 </div>
               </div>
             </div>
             <div className="relative flex items-center">
               <div className="absolute inset-0 flex justify-center items-center">
-                <div className="w-24 h-24 bg-gray-800 rounded-full flex justify-center items-center text-yellow-500 italic">
+                <div className="w-24 h-24 bg-brown-900 rounded-full flex justify-center items-center text-orange-500 italic">
                   {addLeadingZero(timeLeft.minutes)} min.
                 </div>
               </div>
               <div className="w-28 h-28 bg-transparent rounded-full border-4 border-light-500 flex justify-center items-center">
-                <div className="w-20 h-20 bg-gray-700 rounded-full flex justify-center items-center text-yellow-500 italic">
+                <div className="w-20 h-20 bg-brown-900 rounded-full flex justify-center items-center text-orange-500 italic">
                   {addLeadingZero(timeLeft.minutes)}
                 </div>
               </div>
             </div>
             <div className="relative flex items-center">
               <div className="absolute inset-0 flex justify-center items-center">
-                <div className="w-24 h-24 bg-gray-800 rounded-full flex justify-center items-center text-yellow-500 italic">
+                <div className="w-24 h-24 bg-brown-900 rounded-full flex justify-center items-center text-orange-500 italic">
                   {addLeadingZero(timeLeft.seconds)} sec.
                 </div>
               </div>
               <div className="w-28 h-28 bg-transparent rounded-full border-4 border-light-500 flex justify-center items-center">
                 <div
-                  className="w-20 h-20 bg-gray-70 rounded-full flex justify-center items-center text-yellow-500 italic">
+                  className="w-20 h-20 bg-gray-70 rounded-full flex justify-center items-center text-orange-500 italic">
                   {addLeadingZero(timeLeft.seconds)}
                 </div>
               </div>
             </div>
           </div>
-          <button className="bg-yellow-500 text-white py-2 px-4 rounded-lg mt-4">
+          <button className="bg-orange-500 text-white py-2 px-4 rounded-lg mt-4 ">
             View All Events
           </button>
         </div>
