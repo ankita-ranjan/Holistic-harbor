@@ -79,7 +79,7 @@ const router = createBrowserRouter([
     element: <PilgrimagePage />,
   },
   {
-    path:"/discription/rammindar", 
+    path:"/article/rammindar", 
     element:<RammindarPage/>
   },
   {
