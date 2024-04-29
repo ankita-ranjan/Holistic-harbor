@@ -24,7 +24,11 @@ export default function Article() {
       title: "Ram Mandir: A Place of Belief and Harmony",
       description:
         "The Ram Mandir, dedicated to Lord Ram, holds a special place in the hearts of millions of Hindus worldwide.",
+<<<<<<< HEAD
         route:"/article/rammindar"
+=======
+        route:"/article/Rammandir"
+>>>>>>> 97d55559e3503a37a441fb88c4a419890b4ef337
     },
     
     {
@@ -128,11 +132,51 @@ export default function Article() {
         route:"/article/karni"
     },
     {
+      img: hampi,
+      title: "Hampi: A Journey Through Time",
+      description:
+<<<<<<< HEAD
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+        route:"/discription/rammindar"
+=======
+        "In the heart of Karnataka, India, lies a treasure trove of ancient wonders known as Hampi.",
+    },
+    {
+      img: premmandir,
+      title: "Prem Mandir: A Divine Abode of Love and Devotion",
+      description:
+        "At the heart of Prem Mandir lies the sacred bond between Lord Krishna and Radha, celebrated as the epitome of divine love in Hindu mythology. ",
+    },
+    {
+      img: rishikesh,
+      title: "Rishikesh: A Serene Escape in Nature's Embrace",
+      description:
+        "Rishikesh is blessed with the pristine waters of the sacred Ganges River, which flows gracefully through the town, offering a serene backdrop for meditation and reflection.",
+    },
+    {
+      img: varanasi,
+      title: "Varanasi: A Timeless Journey Along the Banks of the Ganges",
+      description:
+        "Varanasi, also known as Kashi or Banaras, is one of the oldest cities in the world and holds a special place in the heart of every Indian.",
+    },
+    {
+      img: shirdi,
+      title: "Shirdi: A Spiritual Haven in Maharashtra",
+      description:
+        "Shirdi, a small town in the state of Maharashtra, holds a special place in the hearts of millions of devotees around the world.",
+    },
+    {
+      img: karni,
+      title: "Karni: A Serene Haven in Nature's Embrace",
+      description:
+        " Located in the heart of the countryside, Karni is a hidden gem waiting to be discovered by nature lovers and adventure enthusiasts alike.",
+    },
+    {
       img: temple,
       title: "The Coldest Sunset",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-        route:"/discription/rammindar"
+>>>>>>> 97d55559e3503a37a441fb88c4a419890b4ef337
     },
 
   ];
@@ -172,7 +216,11 @@ export default function Article() {
                 {readMore && item.description}
                 <p onClick={handleClick} className="items-end flex flex-col justify-end text-2xl text-orange-500 hover:text-orange-700 ">
                   {" "}
+<<<<<<< HEAD
                   <Link to = {item.route}>
+=======
+                 <Link to = {item.route}>
+>>>>>>> 97d55559e3503a37a441fb88c4a419890b4ef337
                  <FaRegArrowAltCircleRight />
                  </Link>
              
