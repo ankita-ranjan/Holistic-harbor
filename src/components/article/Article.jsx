@@ -1,19 +1,19 @@
 import React, { useState } from "react";
-import temple from "./temple.jpeg";
-import jagannath from "./jagannath.jpeg";
-import Rameshwaram from "./Rameshwaram.jpeg";
-import dwarka from "./dwarka.jpeg";
-import badrinath from "./badrinath.jpeg";
-import kedarnath from "./kedarnath.jpeg";
-import Vaishno from "./Vaishno.jpeg";
-import somnath from "./somnath.jpeg";
-import golden from "./golden.jpeg";
-import hampi from "./hampi.jpeg";
-import premmandir from "./premmandir.jpeg";
-import rishikesh from "./rishikesh.jpeg";
-import varanasi from "./varanasi.jpeg";
-import shirdi from "./shirdi.jpeg";
-import karni from "./karni.jpeg";
+import temple from "../../assets/article/temple.jpeg";
+import jagannath from "../../assets/article/jagannath.jpeg";
+import Rameshwaram from "../../assets/article/Rameshwaram.jpeg";
+import dwarka from "../../assets/article/dwarka.jpeg";
+import badrinath from "../../assets/article/badrinath.jpeg";
+import kedarnath from "../../assets/article/kedarnath.jpeg";
+import Vaishno from "../../assets/article/Vaishno.jpeg";
+import somnath from "../../assets/article/somnath.jpeg";
+import golden from "../../assets/article/golden.jpeg";
+import hampi from "../../assets/article/hampi.jpeg";
+import premmandir from "../../assets/article/premmandir.jpeg";
+import rishikesh from "../../assets/article/rishikesh.jpeg";
+import varanasi from "../../assets/article/varanasi.jpeg";
+import shirdi from "../../assets/article/shirdi.jpeg";
+import karni from "../../assets/article/karni.jpeg";
 import { Link } from "react-router-dom";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
@@ -24,12 +24,8 @@ export default function Article() {
       title: "Ram Mandir: A Place of Belief and Harmony",
       description:
         "The Ram Mandir, dedicated to Lord Ram, holds a special place in the hearts of millions of Hindus worldwide.",
-<<<<<<< HEAD
-        route:"/article/rammindar"
-=======
-        route:"/article/Rammandir"
->>>>>>> 97d55559e3503a37a441fb88c4a419890b4ef337
-    },
+      route:"/article/rammandir"
+       },
     
     {
     
@@ -134,12 +130,10 @@ export default function Article() {
     {
       img: hampi,
       title: "Hampi: A Journey Through Time",
-      description:
-<<<<<<< HEAD
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-        route:"/discription/rammindar"
-=======
-        "In the heart of Karnataka, India, lies a treasure trove of ancient wonders known as Hampi.",
+      description:"In the heart of Karnataka, India, lies a treasure trove of ancient wonders known as Hampi.",
+      route:"/discription/rammindar"
+
+
     },
     {
       img: premmandir,
@@ -176,7 +170,7 @@ export default function Article() {
       title: "The Coldest Sunset",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
->>>>>>> 97d55559e3503a37a441fb88c4a419890b4ef337
+
     },
 
   ];
@@ -216,16 +210,14 @@ export default function Article() {
                 {readMore && item.description}
                 <p onClick={handleClick} className="items-end flex flex-col justify-end text-2xl text-orange-500 hover:text-orange-700 ">
                   {" "}
-<<<<<<< HEAD
-                  <Link to = {item.route}>
-=======
+
                  <Link to = {item.route}>
->>>>>>> 97d55559e3503a37a441fb88c4a419890b4ef337
+
                  <FaRegArrowAltCircleRight />
                  </Link>
              
                  
-                </p>{" "}
+                </p>
               </p>
               <div></div>
             </div>

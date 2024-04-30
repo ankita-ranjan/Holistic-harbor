@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Carousel } from "@material-tailwind/react";
-import image1 from "../../assets/ram3.png";
-import image2 from "../../assets/gold.jpg";
-import image3 from "../../assets/chruch.jpg";
-import image4 from "../../assets/masjid.jpeg";
-import image5 from "../../assets/buddha2.png";
-import image6 from "../../assets/jain.avif";
+import image1 from "../../assets/home/ram3.png";
+import image2 from "../../assets/home/gold.jpg";
+import image3 from "../../assets/home/chruch.jpg";
+import image4 from "../../assets/home/masjid.jpeg";
+import image5 from "../../assets/home/buddha2.png";
+import image6 from "../../assets/home/jain.avif";
 import Mission from "./Mission";
 import Vision from "./Vision";
 import News from "./News";

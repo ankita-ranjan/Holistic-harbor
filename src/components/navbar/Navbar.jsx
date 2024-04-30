@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import image from "../images/holistic.png";
+import image from "../../assets/home/holistic.png";
 import { IoLogIn } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -8,7 +8,7 @@ export default function Navbar() {
   const [exploreSubMenu, setExploreSubMenu] = useState(false);
   return (
     <div>
-      <div className=" py-4 px-4 bg-gradient-to-r from-orange-500 via-white to-green-500">
+      <div className=" py-4 px-4 bg-gradient-to-r from-orange-500 via-white to-green-500 z-100">
         <div className="flex items-center justify-between px-0 md:px-20 ">
           <div className="">
             <img src={image} alt="" className="w-12 rounded-full md:w-24 " />

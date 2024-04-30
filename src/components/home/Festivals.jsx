@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer";
-
-import holyimage from "../../components/images/FestivalsImages/holyimage.jpg";
+import holyimage from "../../assets/FestivalsImages/holyimage.jpg";
 
 const Festivals = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");

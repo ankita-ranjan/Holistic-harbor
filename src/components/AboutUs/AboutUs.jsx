@@ -5,7 +5,7 @@ import Navbar from "../navbar/Navbar";
 const AboutUs = () => {
   return (
     <div className="bg-via-white">
-      <Navbar />
+      <Navbar/>
       <div className="px-4 md:px-10 py-8">
         <div className="max-w-5xl mx-auto relative">
           <div className="absolute top-0 left-0 w-full h-full bg-flower bg-cover bg-no-repeat bg-opacity-25 rounded-md"></div>

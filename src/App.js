@@ -93,7 +93,6 @@ const router = createBrowserRouter([
     element: <PilgrimagePage />,
   },
   {
-<<<<<<< HEAD
     path:"/article/rammandir", 
     element:<RammandirPage/>
   },
@@ -152,10 +151,6 @@ const router = createBrowserRouter([
   {
     path:"/article/karni",
     element:<KarniPage/>
-=======
-    path:"/article/rammindar", 
-    element:<RammindarPage/>
->>>>>>> 97d55559e3503a37a441fb88c4a419890b4ef337
   },
   {
     path:"/events/hinduevents",
