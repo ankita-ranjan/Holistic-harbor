@@ -30,6 +30,8 @@ import RishikeshPage from "./pages/RishikeshPage";
 import VaranasiPage from "./pages/VaranasiPage";
 import ShirdiPage from "./pages/ShirdiPage";
 import KarniPage from "./pages/KarniPage";
+import DonationPage from "./pages/DonationPage";
+
   
 const router = createBrowserRouter([
   {
@@ -77,7 +79,7 @@ const router = createBrowserRouter([
     element: <JaintemplePage />,
   },
   {
-    path: "/exploreplaces/mosque",
+    path: "/exploreplaces/Mosque",
     element: <MosquePage />,
   },
   {
@@ -155,6 +157,10 @@ const router = createBrowserRouter([
   {
     path:"/events/hinduevents",
     element:<HinduEventsPage/>
+  },
+  {
+    path:"/donation",
+    element:<DonationPage/>
   }
   
 ]);

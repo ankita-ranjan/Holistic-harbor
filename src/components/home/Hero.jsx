@@ -12,6 +12,7 @@ import News from "./News";
 import Festivals from "./Festivals";
 
 
+
 const data = [
   {
     img: image1,

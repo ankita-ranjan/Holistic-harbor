@@ -259,8 +259,7 @@ export default function Navbar() {
                 type="button"
                 class="inline-flex w-full justify-center bg-white px-2 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500"
               >
-                <Link
-                  to="/exploreplaces/mosque"
+                <Link to="/exploreplaces/mosque"
                   class="grid text -centre hover:bg-orange-500"
                 >
                   MOSQUE
@@ -396,6 +395,12 @@ export default function Navbar() {
           className="flex-1 text-center font-bold hover:text-orange-500"
         >
           ABOUT
+        </Link>
+        <Link
+          to="/Donation"
+          className="flex-1 text-center font-bold hover:text-orange-500"
+        >
+          DONATION
         </Link>
       </div>
     </div>

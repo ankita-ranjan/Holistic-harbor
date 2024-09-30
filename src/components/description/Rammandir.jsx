@@ -75,8 +75,9 @@ function Rammandir({
           </p>
           <p className="text-justify font-lato">{construction}</p>
           <p className="text-justify font-lato">{constructionText}</p>
+          <br/>
 
-          <img src={rammandir} className="my-8 w-2/3 rounded-lg" alt="" />
+          
           <p className="text-justify font-lato font-bold">
             Controversy
             <br />
@@ -87,7 +88,7 @@ function Rammandir({
           <img src={rammandir1} className="my-8 w-2/3 rounded-lg" alt="" />
           <p className="text-justify font-lato font-bold">
             Legal Battles
-            <br />
+           
           </p>
           <p className="text-justify font-lato">{battleTitle}</p>
           <p className="text-justify font-lato">{battle}</p>
